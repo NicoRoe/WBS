@@ -1,5 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Palanquin&family=Roboto:wght@100&family=Wendy+One&display=swap");
 
+body {
+  background-color: lightblue;
+  background-image: url("https://wallpaperaccess.com/full/129603.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+  background-origin: padding-box;
+  background-attachment: fixed;
+}
+
 #fenster {
   background-color: lightgrey;
   height: 200px;
@@ -10,8 +20,8 @@
   border-right: 2px solid black;
   border-radius: 2%;
   position: absolute;
-  top: 25%;
-  left: 25%;
+  top: 30%;
+  left: 37%;
 }
 
 .title {
