@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Palanquin&family=Roboto:wght@100&family=Wendy+One&display=swap");
+
+#fenster {
+  background-color: lightgrey;
+  height: 200px;
+  width: 500px;
+  border-top: 2px solid white;
+  border-bottom: 2px solid black;
+  border-left: 2px solid white;
+  border-right: 2px solid black;
+  border-radius: 2%;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+}
+
+.title {
+  font-family: palanquin;
+  color: white;
+  background: rgb(34, 48, 195);
+  background: linear-gradient(
+    100deg,
+    rgba(34, 48, 195, 1) 50%,
+    rgba(45, 224, 253, 1) 100%
+  );
+  padding: 5px;
+}
+
+.inhalt {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin: 0 auto;
+  max-width: 90%;
+  padding: 1em 0em;
+}
+
+.inhalt img {
+  width: 50%;
+  margin-left: 10px;
+  border-radius: 50%;
+  border-right: 0.5px solid #292321;
+  border-bottom: 1px solid #292321;
+  background: #292321;
+}
+
+.bild {
+  width: 20%;
+}
+
+.msg {
+  width: 80%;
+}
+
+.knopf {
+  width: 20%;
+}
+
+p {
+  font-size: 14px;
+  font-family: kanit;
+}
+
+button {
+  font-family: wendy one;
+  margin-top: 3em;
+  padding: 0.2em 0.5em;
+
+  /* margin-top: 1em; */
+  /* padding: 0.2em 0.5em; */
+  /* background: #c0c0c0; */
+  box-shadow: 2px 2px blue;
+  border-radius: px;
+}
+
+button:hover {
+  color: royalblue;
+  background-color: black;
+}
